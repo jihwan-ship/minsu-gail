@@ -1,0 +1,1073 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      [해병문학] 아아 김민수 해병님과의 달콤 쌉사름한 해병 짜장의 추억이여! -
+      해병대 갤러리
+    </title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        font-family:
+          "Malgun Gothic", "맑은 고딕", "Apple SD Gothic Neo", sans-serif;
+        font-size: 13px;
+        color: #333;
+        background: #fff;
+      }
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+      ul {
+        list-style: none;
+      }
+      .inner {
+        width: 1160px;
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 0 0;
+      }
+
+      /* ===== 최상단 링크 ===== */
+      .util {
+        display: flex;
+        justify-content: flex-end;
+        gap: 6px;
+        font-size: 11px;
+        color: #555;
+        padding-top: 4px;
+        align-items: center;
+      }
+      .util span + span::before {
+        content: "|";
+        color: #ccc;
+        margin-right: 6px;
+      }
+      .util .login {
+        background: #3b4890;
+        color: #fff;
+        padding: 1px 5px;
+      }
+      .util .login::before {
+        content: "" !important;
+        margin: 0 !important;
+      }
+      .night-tip {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 3px;
+      }
+      .night-tip span {
+        background: #7ac943;
+        color: #fff;
+        font-size: 12px;
+        font-weight: bold;
+        padding: 3px 10px;
+        border-radius: 12px;
+      }
+
+      /* ===== 로고 + 검색 ===== */
+      .head {
+        display: flex;
+        align-items: center;
+        height: 60px;
+        margin-top: -26px;
+      }
+      .logo {
+        display: flex;
+        align-items: baseline;
+        gap: 8px;
+      }
+      .logo b {
+        font-family:
+          Arial Black,
+          "Arial",
+          sans-serif;
+        font-style: italic;
+        font-weight: 900;
+        font-size: 30px;
+        letter-spacing: -1.5px;
+        color: #1d1d1d;
+      }
+      .logo em {
+        font-style: normal;
+        font-size: 19px;
+        color: #3b4890;
+        font-weight: bold;
+      }
+      .search {
+        margin-left: 178px;
+        display: flex;
+        border: 4px solid #3b4890;
+        width: 364px;
+        height: 44px;
+      }
+      .search input {
+        flex: 1;
+        border: 0;
+        padding: 0 10px;
+        font-size: 14px;
+        outline: none;
+        color: #999;
+      }
+      .search button {
+        width: 44px;
+        border: 0;
+        background: #3b4890;
+        color: #fff;
+        font-size: 20px;
+        cursor: pointer;
+      }
+
+      /* ===== 파란 메뉴바 ===== */
+      .gnb {
+        background: #3b4890;
+        margin-top: 18px;
+      }
+      .gnb .inner {
+        display: flex;
+        align-items: center;
+        height: 46px;
+      }
+      .gnb li {
+        color: #fff;
+        font-weight: bold;
+        font-size: 15px;
+        margin-right: 21px;
+      }
+      .gnb li.on {
+        color: #ffd800;
+      }
+      .gnb li.bar {
+        width: 1px;
+        height: 12px;
+        background: #7b84b8;
+      }
+      .gnb .stat {
+        margin-left: auto;
+        color: #fff;
+        font-size: 14px;
+      }
+      .gnb .stat b {
+        color: #fff;
+      }
+
+      /* ===== 최근 방문 ===== */
+      .visit {
+        border: 1px solid #ddd;
+        border-top: 0;
+        background: #f6f6f6;
+        height: 36px;
+        display: flex;
+        align-items: center;
+        padding: 0 10px;
+        gap: 14px;
+        font-size: 12px;
+        color: #555;
+      }
+      .visit .tit {
+        font-weight: bold;
+        color: #333;
+      }
+      .visit .m {
+        display: inline-block;
+        font-size: 9px;
+        border: 1px solid #999;
+        border-radius: 50%;
+        width: 12px;
+        height: 12px;
+        line-height: 10px;
+        text-align: center;
+        color: #777;
+        margin-left: 2px;
+      }
+      .visit .x {
+        color: #bbb;
+      }
+      .visit .all {
+        margin-left: auto;
+        text-decoration: underline;
+        font-weight: bold;
+        color: #333;
+      }
+
+      /* ===== 갤러리 타이틀 ===== */
+      .gall-tit {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        border-bottom: 2px solid #3b4890;
+        padding: 18px 0 10px;
+      }
+      .gall-tit h2 {
+        font-size: 24px;
+        color: #3b4890;
+        font-weight: bold;
+        letter-spacing: -1px;
+      }
+      .gall-tit .opt {
+        font-size: 12px;
+        color: #555;
+        display: flex;
+        gap: 8px;
+      }
+      .gall-tit .opt span + span::before {
+        content: "|";
+        color: #ddd;
+        margin-right: 8px;
+      }
+      .gall-tit .opt sup {
+        color: #e10000;
+        font-weight: bold;
+        font-size: 9px;
+      }
+
+      /* ===== 글 헤더 ===== */
+      .view-head {
+        border-bottom: 1px solid #eee;
+        padding: 16px 2px 12px;
+      }
+      .view-head h3 {
+        font-size: 15px;
+        font-weight: bold;
+        color: #333;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+      }
+      .view-head h3 .app {
+        display: inline-block;
+        width: 9px;
+        height: 13px;
+        border: 2px solid #3b4890;
+        border-radius: 2px;
+      }
+      .view-head .row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 10px;
+        font-size: 12px;
+        color: #555;
+      }
+      .view-head .writer em {
+        font-style: normal;
+      }
+      .view-head .writer .ip {
+        color: #999;
+        font-size: 11px;
+      }
+      .view-head .writer .sep,
+      .view-head .cnt .sep {
+        color: #ddd;
+        margin: 0 8px;
+      }
+      .view-head .cnt {
+        display: flex;
+        align-items: center;
+      }
+      .view-head .scrap {
+        display: inline-block;
+        width: 16px;
+        height: 13px;
+        background: #aaa;
+        border-radius: 2px;
+        color: #fff;
+        font-size: 11px;
+        line-height: 13px;
+        text-align: center;
+        font-weight: bold;
+      }
+      .view-head .cmtbtn {
+        border: 1px solid #ccc;
+        border-radius: 12px;
+        padding: 2px 10px;
+        background: #f5f5f5;
+        margin-left: 4px;
+      }
+
+      /* ===== 본문 ===== */
+      .content {
+        padding: 30px 0 40px;
+        font-size: 13px;
+        line-height: 1.7;
+      }
+      .content img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+      }
+      .content .app-sign {
+        margin-top: 20px;
+        color: #999;
+      }
+
+      /* ===== 추천 박스 ===== */
+      .recom-box {
+        width: 416px;
+        margin: 10px auto 34px;
+        border: 1px solid #ccc;
+      }
+      .recom-top {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        height: 92px;
+      }
+      .recom-cnt {
+        width: 70px;
+        text-align: center;
+      }
+      .recom-cnt .up {
+        color: #e10000;
+        font-size: 16px;
+        font-weight: bold;
+      }
+      .recom-cnt .fix {
+        color: #3b4890;
+        font-size: 11px;
+      }
+      .recom-cnt .fix i {
+        display: inline-block;
+        width: 11px;
+        height: 10px;
+        border: 1px solid #999;
+        border-radius: 1px;
+        margin-right: 3px;
+        vertical-align: -1px;
+      }
+      .recom-cnt .down {
+        color: #333;
+        font-size: 16px;
+        font-weight: bold;
+      }
+      .circle {
+        width: 56px;
+        height: 56px;
+        border-radius: 50%;
+        border: 0;
+        cursor: pointer;
+        color: #fff;
+        font-size: 11px;
+        font-weight: bold;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1px;
+        font-family: inherit;
+      }
+      .circle .ico {
+        font-size: 24px;
+        line-height: 1;
+      }
+      .circle.up {
+        background: #3b4890;
+      }
+      .circle.up .ico {
+        color: #ffd800;
+      }
+      .circle.down {
+        background: #a0a0a0;
+      }
+      .circle:active {
+        transform: scale(0.94);
+      }
+      .recom-bottom {
+        display: flex;
+        border-top: 1px solid #ccc;
+        background: #f8f8f8;
+      }
+      .recom-bottom span {
+        flex: 1;
+        text-align: center;
+        padding: 9px 0;
+        font-size: 12px;
+        color: #555;
+        border-left: 1px solid #ddd;
+      }
+      .recom-bottom span:first-child {
+        border-left: 0;
+      }
+      .recom-bottom .b {
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        background: #999;
+        color: #fff;
+        font-size: 10px;
+        line-height: 16px;
+        font-weight: bold;
+        margin-right: 3px;
+      }
+
+      /* ===== 첨부파일 ===== */
+      .attach {
+        border: 1px solid #ccc;
+        padding: 12px 14px;
+        margin-bottom: 30px;
+        font-size: 12px;
+      }
+      .attach strong em {
+        color: #e10000;
+        font-style: normal;
+      }
+      .attach .dl {
+        background: #3b4890;
+        color: #fff;
+        padding: 1px 6px;
+        margin-left: 4px;
+        font-size: 11px;
+      }
+      .attach p {
+        margin-top: 6px;
+        color: #555;
+      }
+
+      /* ===== 댓글 ===== */
+      .cmt-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 2px solid #3b4890;
+        padding-bottom: 8px;
+        font-size: 13px;
+      }
+      .cmt-top .l b {
+        color: #333;
+      }
+      .cmt-top .l em {
+        color: #e10000;
+        font-style: normal;
+        font-weight: bold;
+      }
+      .cmt-top .l span {
+        margin-left: 8px;
+        color: #999;
+      }
+      .cmt-top .l span.on {
+        color: #333;
+        font-weight: bold;
+      }
+      .cmt-top .l span::before {
+        content: "✓";
+        margin-right: 2px;
+      }
+      .cmt-top .l span.on::before {
+        color: #3b4890;
+      }
+      .cmt-top .r {
+        display: flex;
+        gap: 8px;
+        color: #333;
+        font-weight: bold;
+      }
+      .cmt-top .r .reg {
+        border: 1px solid #333;
+        padding: 0 5px;
+        font-weight: normal;
+      }
+      .cmt-top .r span + span::before {
+        content: "|";
+        color: #ddd;
+        margin-right: 8px;
+        font-weight: normal;
+      }
+
+      .cmt {
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid #eee;
+        min-height: 37px;
+        padding: 6px 4px;
+        font-size: 13px;
+      }
+      .cmt .who {
+        width: 186px;
+        flex-shrink: 0;
+        color: #333;
+      }
+      .cmt .who .ip {
+        color: #999;
+        font-size: 11px;
+      }
+      .cmt .who .fixn {
+        display: inline-block;
+        width: 11px;
+        height: 11px;
+        background: #8a8a8a;
+        border-radius: 2px;
+        margin-left: 3px;
+        vertical-align: -1px;
+      }
+      .cmt .txt {
+        flex: 1;
+      }
+      .cmt .txt .app {
+        color: #999;
+      }
+      .cmt .date {
+        color: #999;
+        font-size: 12px;
+        width: 120px;
+        text-align: right;
+      }
+      .cmt .del {
+        width: 14px;
+        height: 14px;
+        border: 1px solid #ccc;
+        margin-left: 8px;
+        color: #ccc;
+        font-size: 10px;
+        line-height: 12px;
+        text-align: center;
+      }
+      .cmt.reply {
+        background: #f8f8f8;
+      }
+      .cmt.reply .who {
+        padding-left: 16px;
+      }
+      .cmt.reply .who::before {
+        content: "ㄴ ";
+        color: #bbb;
+      }
+
+      .cmt-write {
+        display: flex;
+        gap: 8px;
+        border: 1px solid #ccc;
+        border-top: 0;
+        padding: 12px;
+        background: #f8f8f8;
+        margin-bottom: 14px;
+      }
+      .cmt-write .ids {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        width: 150px;
+      }
+      .cmt-write input,
+      .cmt-write textarea {
+        border: 1px solid #ccc;
+        padding: 6px;
+        font-size: 12px;
+        font-family: inherit;
+      }
+      .cmt-write textarea {
+        flex: 1;
+        resize: none;
+        height: 66px;
+        color: #333;
+      }
+      .cmt-write .btns {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+      }
+      .cmt-write button {
+        width: 84px;
+        flex: 1;
+        border: 0;
+        font-weight: bold;
+        cursor: pointer;
+        font-family: inherit;
+      }
+      .cmt-write .reg {
+        background: #3b4890;
+        color: #fff;
+      }
+      .cmt-write .reg2 {
+        background: #fff;
+        color: #3b4890;
+        border: 1px solid #3b4890;
+      }
+
+      .view-btns {
+        display: flex;
+        justify-content: space-between;
+        margin: 20px 0 40px;
+      }
+      .view-btns div {
+        display: flex;
+        gap: 4px;
+      }
+      .view-btns span {
+        border: 1px solid #ccc;
+        padding: 6px 14px;
+        font-size: 13px;
+        font-weight: bold;
+        background: #fff;
+      }
+      .view-btns .blue {
+        background: #3b4890;
+        color: #fff;
+        border-color: #3b4890;
+      }
+
+      /* ===== 하단 리스트 ===== */
+      .list {
+        width: 100%;
+        border-collapse: collapse;
+        border-top: 2px solid #3b4890;
+        font-size: 13px;
+        margin-bottom: 40px;
+      }
+      .list th {
+        font-weight: bold;
+        padding: 9px 4px;
+        border-bottom: 1px solid #ccc;
+      }
+      .list td {
+        padding: 8px 4px;
+        border-bottom: 1px solid #eee;
+        text-align: center;
+        color: #555;
+      }
+      .list td.t {
+        text-align: left;
+        color: #333;
+      }
+      .list td.t em {
+        color: #e10000;
+        font-style: normal;
+        font-size: 12px;
+        margin-left: 3px;
+      }
+      .list td.t .star {
+        color: #e10000;
+        margin-right: 3px;
+      }
+      .list tr.now td {
+        background: #f1f2f8;
+        font-weight: bold;
+      }
+      .list .ip {
+        color: #999;
+        font-size: 11px;
+      }
+      .list tr.notice td.n {
+        color: #3b4890;
+        font-weight: bold;
+      }
+
+      .footer {
+        border-top: 1px solid #ddd;
+        padding: 20px 0 40px;
+        text-align: center;
+        font-size: 11px;
+        color: #999;
+      }
+      .footer p + p {
+        margin-top: 6px;
+      }
+
+      @media (max-width: 1180px) {
+        .inner {
+          padding: 0 16px;
+        }
+        .search {
+          margin-left: auto;
+        }
+      }
+      @media (max-width: 760px) {
+        .search,
+        .util,
+        .night-tip,
+        .gnb .stat,
+        .visit,
+        .gall-tit .opt {
+          display: none;
+        }
+        .head {
+          margin-top: 0;
+        }
+        .gnb .inner {
+          overflow-x: auto;
+        }
+        .gnb li {
+          white-space: nowrap;
+        }
+        .recom-box {
+          width: 100%;
+        }
+        .cmt .who {
+          width: 110px;
+        }
+        .cmt .date {
+          width: 80px;
+          font-size: 11px;
+        }
+        .list th:nth-child(3),
+        .list td:nth-child(3),
+        .list th:nth-child(4),
+        .list td:nth-child(4) {
+          display: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 헤더 -->
+    <div class="inner">
+      <div class="util">
+        <span>마이너갤</span><span>미니갤</span><span>인물갤</span
+        ><span>갤로그</span><span>디시게임</span><span>이벤트</span
+        ><span>디시콘</span> <span class="login">로그인</span
+        ><span>☾ 야간모드</span>
+      </div>
+      <div class="night-tip"><span>야간 모드를 이용해 보세요</span></div>
+      <div class="head">
+        <div class="logo"><b>haebyeongside</b><em>갤러리</em></div>
+        <div class="search">
+          <input value="갤러리 &amp; 통합검색" /><button>⌕</button>
+        </div>
+      </div>
+    </div>
+
+    <nav class="gnb">
+      <div class="inner">
+        <ul style="display: flex; align-items: center">
+          <li class="on">갤러리</li>
+          <li>마이너갤</li>
+          <li>미니갤</li>
+          <li>인물갤</li>
+          <li class="bar"></li>
+          <li>갤로그</li>
+          <li>이벤트</li>
+          <li>디시콘</li>
+          <li>광고문의</li>
+        </ul>
+        <div class="stat">어제 <b>928,911개</b> 게시글 등록</div>
+      </div>
+    </nav>
+
+    <div class="inner">
+      <div class="visit">
+        <span class="tit">최근 방문 ▾</span>
+        <span>해병대 <span class="x">×</span></span>
+        <span>해병<span class="m">m</span> <span class="x">×</span></span>
+        <span>해병문학<span class="m">m</span> <span class="x">×</span></span>
+        <span
+          >민수와주방장<span class="m">m</span> <span class="x">×</span></span
+        >
+        <span>플래시게임<span class="m">m</span> <span class="x">×</span></span>
+        <span>짜장면 <span class="x">×</span></span>
+        <span class="all">전체</span>
+      </div>
+
+      <div class="gall-tit">
+        <h2>해병대 갤러리</h2>
+        <div class="opt">
+          <span>설정 <sup>N</sup></span
+          ><span>연관 갤러리(0/3) ▾</span><span>갤주소 복사</span
+          ><span>이용안내</span>
+        </div>
+      </div>
+
+      <!-- 글 헤더 -->
+      <div class="view-head">
+        <h3>
+          [해병문학] 아아 김민수 해병님과의 달콤 쌉사름한 해병 짜장의 추억이여!
+          <span class="app" title="앱에서 작성"></span>
+        </h3>
+        <div class="row">
+          <div class="writer">
+            <em>ㅇㅇ</em><span class="ip">(210.218)</span
+            ><span class="sep">|</span>2026.10.21 19:09:42
+          </div>
+          <div class="cnt">
+            <span class="scrap">+</span><span class="sep">|</span> 조회
+            <span id="viewCnt" style="margin-left: 4px">48215</span
+            ><span class="sep">|</span> 추천
+            <span id="headUp" style="margin-left: 4px">1274</span>
+            <span class="cmtbtn">댓글 <span id="headCmt">312</span></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 본문 -->
+      <div class="content">
+        <img src="minsu.webp" alt="민수와 주방장" />
+        <p class="app-sign">- dc official App</p>
+      </div>
+
+      <!-- 추천 -->
+      <div class="recom-box">
+        <div class="recom-top">
+          <div class="recom-cnt">
+            <div class="up" id="upNum">1274</div>
+            <div class="fix"><i></i>284</div>
+          </div>
+          <button class="circle up" id="upBtn">
+            <span class="ico">★</span>개념
+          </button>
+          <button class="circle down" id="downBtn">
+            <span class="ico">⬇</span>비추
+          </button>
+          <div class="recom-cnt"><div class="down" id="downNum">12</div></div>
+        </div>
+        <div class="recom-bottom">
+          <span><i class="b">B</i>실베추</span>
+          <span>⟲ 펌 0</span>
+          <span>공유</span>
+          <span>스크랩</span>
+          <span>신고</span>
+        </div>
+      </div>
+
+      <!-- 첨부파일 -->
+      <div class="attach">
+        <strong>원본 첨부파일 <em>1</em></strong
+        ><span class="dl">본문 이미지 다운로드</span>
+        <p>minsu.png</p>
+      </div>
+
+      <!-- 댓글 -->
+      <div class="cmt-top">
+        <div class="l">
+          <b>전체 댓글 <em id="cmtCnt">312</em>개</b
+          ><span class="on">등록순</span><span>최신순</span><span>답글순</span>
+        </div>
+        <div class="r">
+          <span class="reg">댓글 등록</span><span>본문 보기</span
+          ><span>댓글닫기 ▴</span><span>새로고침</span>
+        </div>
+      </div>
+      <div id="cmtList">
+        <div class="cmt">
+          <div class="who">ㅇㅇ<span class="ip">(210.218)</span></div>
+          <div class="txt">
+            따흐흑 김민수 해병님... <span class="app">- dc App</span>
+          </div>
+          <div class="date">2026.10.21 19:10:28</div>
+          <div class="del">×</div>
+        </div>
+        <div class="cmt">
+          <div class="who">ㅇㅇ<span class="ip">(223.38)</span></div>
+          <div class="txt">기합!</div>
+          <div class="date">2026.10.21 19:11:25</div>
+          <div class="del">×</div>
+        </div>
+        <div class="cmt">
+          <div class="who">ㅇㅇ<span class="ip">(112.170)</span></div>
+          <div class="txt">새끼 기합!</div>
+          <div class="date">2026.10.21 19:12:07</div>
+          <div class="del">×</div>
+        </div>
+        <div class="cmt reply">
+          <div class="who">ㅇㅇ<span class="ip">(118.235)</span></div>
+          <div class="txt">설익힘에서 꺼내면 기열이다</div>
+          <div class="date">2026.10.21 19:13:44</div>
+          <div class="del">×</div>
+        </div>
+        <div class="cmt">
+          <div class="who">해병짜장러버<span class="fixn"></span></div>
+          <div class="txt">민수와 주방장을 여기서 보네 ㅋㅋㅋㅋ</div>
+          <div class="date">2026.10.21 19:15:02</div>
+          <div class="del">×</div>
+        </div>
+        <div class="cmt">
+          <div class="who">ㅇㅇ<span class="ip">(175.223)</span></div>
+          <div class="txt">바로시작! 누르는 순간 6974그릇 완성</div>
+          <div class="date">2026.10.21 19:18:51</div>
+          <div class="del">×</div>
+        </div>
+        <div class="cmt reply">
+          <div class="who">ㅇㅇ<span class="ip">(211.36)</span></div>
+          <div class="txt">라이라이 차차차!</div>
+          <div class="date">2026.10.21 19:20:13</div>
+          <div class="del">×</div>
+        </div>
+      </div>
+      <div class="cmt-write">
+        <div class="ids">
+          <input id="nick" value="해갤러" /><input
+            type="password"
+            placeholder="비밀번호"
+          />
+        </div>
+        <textarea
+          id="cmtText"
+          placeholder="타인의 권리를 침해하거나 명예를 훼손하는 댓글은 운영원칙 및 관련 법률에 제재를 받을 수 있습니다.&#10;Shift+Enter 키를 동시에 누르면 줄바꿈이 됩니다."
+        ></textarea>
+        <div class="btns">
+          <button class="reg" id="cmtBtn">등록</button
+          ><button class="reg2" id="cmtUpBtn">등록+추천</button>
+        </div>
+      </div>
+
+      <div class="view-btns">
+        <div><span class="blue">전체글</span><span>개념글</span></div>
+        <div>
+          <span>수정</span><span>삭제</span><span class="blue">글쓰기</span>
+        </div>
+      </div>
+
+      <!-- 하단 리스트 -->
+      <table class="list">
+        <colgroup>
+          <col style="width: 80px" />
+          <col />
+          <col style="width: 140px" />
+          <col style="width: 80px" />
+          <col style="width: 60px" />
+          <col style="width: 50px" />
+        </colgroup>
+        <thead>
+          <tr>
+            <th>번호</th>
+            <th>제목</th>
+            <th>글쓴이</th>
+            <th>작성일</th>
+            <th>조회</th>
+            <th>추천</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="notice">
+            <td class="n">공지</td>
+            <td class="t">해병대 갤러리 이용 안내 <em>[206]</em></td>
+            <td>운영자</td>
+            <td>08.09.24</td>
+            <td>106357</td>
+            <td>154</td>
+          </tr>
+          <tr class="now">
+            <td>▶</td>
+            <td class="t">
+              <span class="star">★</span>[해병문학] 아아 김민수 해병님과의 달콤
+              쌉사름한 해병 짜장의 추억이여! <em>[312]</em>
+            </td>
+            <td>ㅇㅇ<span class="ip">(210.218)</span></td>
+            <td>19:09</td>
+            <td>48215</td>
+            <td>1274</td>
+          </tr>
+          <tr>
+            <td>355360</td>
+            <td class="t">민수와 주방장 아직 하는 사람 있냐</td>
+            <td>ㅇㅇ<span class="ip">(116.124)</span></td>
+            <td>18:04</td>
+            <td>12</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td>355359</td>
+            <td class="t">짜장 vs 짬뽕 결론 내드림 <em>[3]</em></td>
+            <td>해갤러<span class="ip">(211.234)</span></td>
+            <td>17:50</td>
+            <td>13</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td>355358</td>
+            <td class="t">플래시 게임 시절 그립다</td>
+            <td>해갤러<span class="ip">(180.83)</span></td>
+            <td>16:23</td>
+            <td>22</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td>355357</td>
+            <td class="t">새끼...짜장!</td>
+            <td>해갤러<span class="ip">(223.39)</span></td>
+            <td>16:01</td>
+            <td>69</td>
+            <td>0</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="footer">
+      <p>
+        회사소개 · 제휴안내 · 광고안내 · 이용약관 · <b>개인정보처리방침</b> ·
+        청소년보호정책
+      </p>
+      <p>이 페이지는 패러디용 가상의 페이지입니다.</p>
+    </div>
+
+    <script>
+      const $ = (id) => document.getElementById(id);
+      let voted = false;
+
+      function vote(type) {
+        if (voted) {
+          alert("이미 추천 또는 비추천을 하셨습니다.");
+          return false;
+        }
+        voted = true;
+        if (type === "up") {
+          $("upNum").textContent = Number($("upNum").textContent) + 1;
+          $("headUp").textContent = $("upNum").textContent;
+        } else {
+          $("downNum").textContent = Number($("downNum").textContent) + 1;
+        }
+        return true;
+      }
+      $("upBtn").onclick = () => vote("up");
+      $("downBtn").onclick = () => vote("down");
+
+      // 조회수 +1
+      $("viewCnt").textContent = Number($("viewCnt").textContent) + 1;
+
+      function addComment(withRecom) {
+        const text = $("cmtText").value.trim();
+        const nick = $("nick").value.trim() || "ㅇㅇ";
+        if (!text) {
+          alert("내용을 입력하세요.");
+          return;
+        }
+        const d = new Date();
+        const p = (n) => String(n).padStart(2, "0");
+        const row = document.createElement("div");
+        row.className = "cmt";
+        row.innerHTML =
+          '<div class="who"></div><div class="txt"></div><div class="date"></div><div class="del">×</div>';
+        row.querySelector(".who").innerHTML =
+          '<span></span><span class="ip">(127.0)</span>';
+        row.querySelector(".who span").textContent = nick;
+        row.querySelector(".txt").textContent = text;
+        row.querySelector(".date").textContent =
+          `${d.getFullYear()}.${p(d.getMonth() + 1)}.${p(d.getDate())} ${p(d.getHours())}:${p(d.getMinutes())}:${p(d.getSeconds())}`;
+        $("cmtList").appendChild(row);
+        const c = Number($("cmtCnt").textContent) + 1;
+        $("cmtCnt").textContent = c;
+        $("headCmt").textContent = c;
+        $("cmtText").value = "";
+        if (withRecom) vote("up");
+      }
+      $("cmtBtn").onclick = () => addComment(false);
+      $("cmtUpBtn").onclick = () => addComment(true);
+      $("cmtText").addEventListener("keydown", (e) => {
+        if (e.key === "Enter" && !e.shiftKey) {
+          e.preventDefault();
+          addComment(false);
+        }
+      });
+
+      // 삭제 버튼
+      $("cmtList").addEventListener("click", (e) => {
+        if (
+          e.target.classList.contains("del") &&
+          confirm("댓글을 삭제하시겠습니까?")
+        ) {
+          e.target.parentElement.remove();
+          const c = Number($("cmtCnt").textContent) - 1;
+          $("cmtCnt").textContent = c;
+          $("headCmt").textContent = c;
+        }
+      });
+    </script>
+  </body>
+</html>
